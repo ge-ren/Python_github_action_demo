@@ -1,5 +1,4 @@
 import subprocess
-from datetime import datetime
 import pytz
 
 from src.logic import area, area_zone, timezones, format_location
