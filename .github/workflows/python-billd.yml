@@ -45,11 +45,7 @@ jobs:
     - name: Pack
       run: nuget pack /p:Version=${VERSION}
       
-    #- name: Authenticate to GitHub packages
-    #  run: dotnet nuget add source --username ${USERNAME} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/Zina-420001498/index.json"
-    #- name: Push
-    #  run: dotnet nuget push PrimeService.${VERSION}.nupkg --api-key ${PAT} --source "github"
-      
+   
     #- name: Publish package
     #  uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
     #  with:
