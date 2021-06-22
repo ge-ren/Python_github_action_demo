@@ -1,4 +1,4 @@
-import subprocess
+#import subprocess
 #import pytz
 
 from src.logic import area, area_zone, timezones, format_location
