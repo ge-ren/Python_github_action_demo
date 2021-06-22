@@ -1,8 +1,7 @@
 import subprocess
 #import pytz
 
-#from src.logic import area, area_zone, timezones, format_location
-from logic import area, area_zone, timezones, format_location
+from src.logic import area, area_zone, timezones, format_location
 
 
 def capture(command):
