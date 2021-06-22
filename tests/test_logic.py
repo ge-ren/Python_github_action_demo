@@ -23,9 +23,9 @@ def test_format_location():
     assert format_location("St Helena") == "St_Helena"
 
 
-def test_area():
-    command = ["python", "src/main.py", "--location", "New_York"]
-    out, err, exitcode = capture(command)
-    #assert exitcode == 0
-    assert out == area("New_York")
-    assert err == b""
+#def test_area():
+#    command = ["python", "src/main.py", "--location", "New_York"]
+#    out, err, exitcode = capture(command)
+#    assert exitcode == 0
+#    assert out == area("New_York")
+#    assert err == b""
