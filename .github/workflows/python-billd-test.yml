@@ -42,10 +42,7 @@ jobs:
         export PYTHONPATH=src
         python -m pytest tests/
         
-    - name: Pack
-      run: nuget pack /p:Version=${VERSION}
-      
-   
+ 
     #- name: Publish package
     #  uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
     #  with:
